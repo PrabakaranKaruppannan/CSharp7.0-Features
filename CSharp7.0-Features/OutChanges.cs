@@ -10,9 +10,10 @@ namespace CSharp7._0_Features
     {
         static void Main(string[] args)
         {
+            //Before C# 7.0
             string firstName = "Praba";
             int convertedValue = 0;
-            if (int.TryParse(firstName, out convertedValue))
+            if (!int.TryParse(firstName, out convertedValue))
             {
                 Console.WriteLine("Conversion not succeeded");
             }
@@ -21,7 +22,16 @@ namespace CSharp7._0_Features
                 Console.WriteLine("Conversion succeeded");
             }
 
-
+            //In C# 7.0
+            /*string firstName = "Praba";
+            if (!int.TryParse(firstName, out int convertedValue))
+            {
+                Console.WriteLine("Conversion not succeeded");
+            }
+            else
+            {
+                Console.WriteLine($"Conversion succeeded");
+            }*/
 
             Console.ReadLine();
         }

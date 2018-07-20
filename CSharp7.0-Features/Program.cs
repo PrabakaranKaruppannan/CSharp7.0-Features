@@ -15,15 +15,15 @@ namespace CSharp7._0_Features
 
             // CSharp7.0 Features
             // 1. Out Changes (File Name: OutChanges.cs)
-            // 2. Tuple Changes(File Name: TupleChanges.cs)
-            // 3. Expression Bodied Function And Property (File Name: ExpressionBodiedFunctionAndProperty.cs)
-            // 4. StringInterpolation (File Name: StringInterpolation.cs)
-            // 5. Dictionary Initializer (File Name: DictionaryInitializer.cs)
-            // 6. NameOf Expresion (File Name: NameOfExpresion.cs)
-            // 7. Static Import (File Name: StaticImport.cs)
-            // 8. Null Conditional Opearator(File Name: NullOperator.cs)
-            // 9. Exception Filter (File Name: ExceptionFilter.cs)
-            //10. Await In Catch (File Name: AwaitInCatch.cs)
+            // 2. More Expression Bodied Function And Property (File Name: ExpressionBodiedFunctionAndProperty.cs)
+            // 3. Tuple(File Name: TupleChanges.cs) 
+            // 4. Deconstruction(File Name: TupleChanges.cs) 
+            // 5. Discard(File Name: TupleChanges.cs)
+            // 6. Pattern Matching(File Name: PatternMatching.cs)
+            // 7. Local Function(File Name: PatternMatching.cs)
+            // 8. Digit Separator(File Name: DigitSeparator.cs)
+            // 9. Throw Expression(File Name: ThrowExpression.cs)
+
         }
     }
 }
